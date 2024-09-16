@@ -1,0 +1,178 @@
+body{
+    background-color: #f3ebf4;
+    margin:0;
+    padding: 0;
+    font-size: 13px;
+    font-family:cursive;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: #d580f4;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    background-color: #eeeaf1;
+}
+
+nav .nav-right-section img {
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(242, 231, 245)
+}
+
+main {
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 330px;
+    height: 120px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #e4e0e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    main .main-input input{
+        width: 450px;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+
+    main .main-input-container:hover{
+        box-shadow: 0 1px 6px 0 rgb(193, 129, 245);
+        border-color: rgb(140, 60, 210)
+    }
+
+    main .main-input .search-icon{
+        background-image: url('https://th.bing.com/th/id/OIP.SJU5hmbCaIAYeNSPgQWfTgHaHj?rs=1&pid=ImgDetMain');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+
+    }
+
+   main .main-input .micro-icon{
+        background-image: url('https://cdn-icons-png.flaticon.com/512/1083/1083377.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    main .main-buttons{
+        width: 530px;
+        margin: 0 auto;
+    }
+    main .main-buttons div {
+        display: inline-block;
+        
+    }
+
+    main .main-buttons button {
+        height: 36px;
+        background-color:#cf1d96 ;
+        border: 0;
+        font-size: 14px;
+        color: #fcf6fc;
+        border-radius: 80px;
+        padding: 0 15px;
+        margin-right: 15px;
+        
+    }
+    main .main-buttons button:hover{
+        border: 1px solid #f1eef3;
+        box-shadow: 0 1px 1px #e2dbe3;
+        color: #f6f3f7;
+    }
+
+    footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 12px;
+        background-color: #cf1d96;
+        border-top: 1px solid #f6f6f6;
+    }
+
+    footer ul{
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        padding-left:0;
+    }
+
+.footer-left {
+        justify-self: left;
+    }
+
+.footer-right {
+        justify-self: right;
+    }
+
+    footer ul li a {
+        margin: 10px;
+        color: #f8f7f8df;
+    } 
